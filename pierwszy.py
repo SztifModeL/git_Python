@@ -53,3 +53,6 @@ obwod = 2 * (wysokosc + szerokosc)
 
 print("Pole wynosi {}".format(pole))
 print("Obwod wynosi {}".format(obwod))
+
+# program sprawdzajacy czy dziala git
+print("Gicie! Jestes Tam ?!")
