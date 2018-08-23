@@ -17,3 +17,4 @@ podatek = 0.25
 napis = "Kwota do zapłaty: %s zł, podatek: %.2f zł." %(liczba, podatek)  # to samo co wyżej ale 2 zmienne z czeo druga jest jako zmienno pzrecinkowa z po przecinku mają byc 2 miejsca
 
 print napis
+
