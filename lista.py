@@ -1,10 +1,10 @@
 # coding: utf-8
 
-# Ukąś Pythona 2
+# Ukąś Pythona 2 (Do opracowania/Porawienia!!! -> Na końcu nie działa kopiowanie listy, krotki zbioru)
 
-#lista -> (1-38 min) w pythonie to po prostu tablica
-#Krotka -> (38-48 min) w pythonie to tablica zachowuje się jak lista ale w której nie można podmieniać wartości (niezmienialna)
-#słownik -> (48 min - 1.20 min)w pythonie to lista asocjacyjna
+#lista -> (1-38min) w pythonie to po prostu tablica
+#Krotka -> (38-48min) w pythonie to tablica zachowuje się jak lista ale w której nie można podmieniać wartości (niezmienialna)
+#słownik -> (48min - 1.20h)w pythonie to lista asocjacyjna
 #zbiób -> zbiór elementów które się nie powtarzają
 
 print " \n ------------- Lista ----------------- \n "
@@ -63,6 +63,13 @@ print moja_lista[::3]  # Wyswietli po prostu co trzeci element listy
 
 print moja_lista[::-1]  # Wyswietli odwróconą kolejnośc listy
 
+print " \n ------------- Lista -> Szukanie elemenu w liście  ----------------- \n "
+
+lista_przeszukiwana = ['Ala', 4, 3.14]  # Tworzymy listę
+
+print 42 in lista_przeszukiwana  # Jest to warunek loginczny -> Zwaraca False
+print 'Ala' in lista_przeszukiwana  # Jest to warunek loginczny -> Zwaraca True
+print 'ala' in lista_przeszukiwana  # Jest to warunek loginczny -> Zwaraca False (wielkość liter ma znaczenie!!!)
 #
 #
 #####################----------- Krotka ---------------########################
