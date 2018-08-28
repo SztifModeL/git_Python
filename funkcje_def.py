@@ -93,3 +93,22 @@ print l
 
 d = {'tekst': 'Ala ma kota'}  #usuniety 'par1' bo już dostał z 'l' i był by error
 print funkcyjka(*l, **d)  # Rozpakowanie najpierw '*l' potem '**d' -> Wewnętrznie lista i tak jest zwracane jako krotka () i słownik {}
+
+print " \n ------------- Lambda !!! szybkie wywołanie anonmowej funkcji  - Coś mi nie działą ----------------- \n "
+
+# Jak potzrebujemy jednorazowo coś na szybko zrobić
+lambda x: x + 2  # Czyli lambda z 1 parametrem 'x' która zwraca 'x + 1'
+                 #  Jak nie ma parametrów to sam ':', jak ma wiecej to po przecinku
+f = lambda x: x + 2
+
+#wywołanie
+f(1)
+print f(1)  #wyświetlenie
+
+# Zamiast klasycznej prostej funkcji
+def funkcja_prosta(x):
+    return x + 2
+
+#wywołanie
+funkcja_prosta(1) 
+print funkcja_prosta(1)  #wyświetlenie

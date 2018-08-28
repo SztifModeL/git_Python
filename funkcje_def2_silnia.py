@@ -71,7 +71,7 @@ print list(range(2, 9))  # Można zmienić od kąd ma startowac i gdzie kończy�
 print list(range(2, 9, 2))  # Można tez określic co która liczbę ma wygenerować, tu np. co drugą
 
 print " \n ------------- Generator z funkcji ----------------- \n "
-#Generator -> funkcjo podobny twór !!
+#Generator -> funkcjo-podobny twór !!
 def gen_ciag_liczb(n=0):
     while n < 100:
         print 'Debug -> Przed yield'
